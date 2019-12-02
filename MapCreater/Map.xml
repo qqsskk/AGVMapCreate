@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="gbk"?>
+<!-- 地图配置信息 -->
+<Map>
+  <!-- 
+  @brief 背景图
+  @param Scale 缩放比例
+  @param OffsetX 偏移量X
+  @param OffsetY 偏移量Y
+  -->
+  <Background Scale="10.0" OffsetX="0" OffsetY=""/>
+
+  <!-- 
+  @brief 地标卡 
+  @param No 编号 <不可为0,不可重复>
+  @param X 坐标(矢量)
+  @param Y 坐标(矢量)
+  -->
+  <Mark No="1" X="0" Y="0"/>
+
+  <!--
+  @brief 工位
+  @param No 编号 <不可为0,不可重复>
+  @param Mark 所在地标卡编号 <不可为0>
+  @param Name 名称 <可为空>
+  @param X 坐标(矢量)
+  @param Y 坐标(矢量)
+  -->
+  <Station No="1" Mark="1" Name="在地标卡1编号为1的工位" X="0" Y="0"/>
+  
+  <!--
+  @brief 待机位
+  @param No 编号 <不可为0>
+  @param Mark 所在地标卡编号 <不可为0>
+  @param X 坐标(矢量)
+  @param Y 坐标(矢量)
+  @param Next 位于此待机位之前的1个待机位的编号,使用此属性的前提是这2个待机位处于同一直线上.
+  @param Stop 禁行RFID卡组,由多个RFID卡编号组成,卡号之间用','分割.当组中RFID卡上存在AGV时,此RFID卡以及比较管制点上的AGV均不允许通行.
+  -->
+  <Rest No="1" Mark="1" X="0" Y="0"/>
+
+  <!--
+  @brief 充电器
+  @param No 编号 <不可为0>
+  @param Mark 所在地标卡编号 <不可为0>
+  @param Ctrl 受控充电器控制器编号 <可为0>
+  @param X 坐标(矢量)
+  @param Y 坐标(矢量)
+  -->
+  <Charger No="1" Mark="1" Ctrl="0" X="0" Y="0"/>
+  
+  <!--
+  @brief 轨道
+  @param StartX 起始坐标(矢量)
+  @param StartY 起始坐标(矢量)
+  @param EndX 终止坐标(矢量)
+  @param EndY 终止坐标(矢量)
+  @param Arc  轨道类型 0 为直线 1为弧线
+  -->
+  <Track StartX="0" StartY="0" EndX="0" EndY="0" Arc="0"/>
+  
+  <!--
+  @brief AGV
+  @param No 编号 <不可为0,不可重复>
+  @param Type 类型 P为牵引式 S为潜入式 T为移载式 F为叉车式 A为机械手式 L为举升式
+  @param Move 可运动方向 S为单向 D为双向 F为全向
+  @param IP 地址
+  @param Port 端口
+  -->
+  <AGV No="1" Type="P" Move="S" IP="0.0.0.0" Port="0"/>
+  
+  <!--
+  @brief 无线主机
+  @param No 编号 <不可为0,不可重复>
+  @param IP 地址
+  @param Port 端口
+  -->
+  <CA No="1" IP="0.0.0.0" Port="0"/>
+  
+  <!--
+  @brief 显示器
+  @param No 编号 <不可为0,不可重复>
+  @param IP 地址
+  @param Port 端口
+  @param Width 宽 <不可为0>
+  @param Height 高 <不可为0>
+  -->
+  <TV No="1" IP="0.0.0.0" Port="0" Width="1" Height="1"/>
+
+  <!--
+  @brief 无线手表
+  @param No 编号 <不可为0,不可重复>
+  @param CA 受控无线主机编号, 此项决定了由那一台CA主机发送信息至手表.手表不在此CA主机的覆盖范围时,可能会接收不到信息.此属性为0时，则通过所有的CA主机发送信息.
+  @param Station AGV到达此工位时,向此手表发送信息.若属性值为0,则AGV到达任意工位均可向此手表发送信息.
+  -->
+  <Watch No="1" CA="1" Station=""/>
+  
+  <!--
+  @brief 无线呼叫器
+  @param No 编号 <不可为0,不可重复>
+  @param Station 工位编号 即AGV的移动终点
+  @param Rest 待机编号即选择该待机位的AGV 此参数为0,则由调度系统选择AGV
+  @param AGVType AGV类型 即选择此类型的AGV 此参数为0 则任意AGV均可
+  @param Msg 携带信息 字符串信息，可用于显示也可以根据调度系统需求按照格式填写
+  @param Action 动作即执行的任务动作,默认为移动
+  -->
+  <Call No="1" Station="1" Rest="0" AGVType="0" Msg="" Action="移动"/>
+    
+  <!--
+  @brief 交通管制点
+  @param Before 管制点前的RFID卡编号,用于提前检测管制点是否允许通行.此属性为0时,不检测.
+  Ctrl卡上存在AGV时,Before卡上的AGV不允许通行.
+  Ctrl卡上没有AGV时Before卡与Compare组的成员的Ctrl进行比较,当组成员Ctrl卡上有AGV时Befor卡上的AGV不允许通行,否则与组成员的Befor卡的时间进行比较,先到先行.
+  此项功能过于理想,会产生诸多不稳定因素,舍弃
+  1、Before卡与Ctrl卡之间的间距
+  2、AGV的速度
+  3、人为或避障引起的干扰
+  @param Ctrl 管制点RFID卡编号,用于检测在此卡上的AGV是否允许通行.
+  @param Stop 禁行RFID卡组,由多个RFID卡编号组成,卡号之间用','分割.当组中RFID卡上存在AGV时,此RFID卡以及比较管制点上的AGV均不允许通行.
+  @param Compare 管制点组,由多个交通管制点组成,管制卡号之间用','分割.用以与此点进行比较的管制点组,组成员的进行RFID卡存在AGV时不允许通行.
+  -->
+  <TrafficPoint Ctrl="" Stop="" Compare=""/>
+  
+  <ChargerControler No="" IP="" Port=""/>
+ 
+</Map>

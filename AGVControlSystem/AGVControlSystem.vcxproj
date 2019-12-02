@@ -1,0 +1,361 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <VCProjectVersion>15.0</VCProjectVersion>
+    <ProjectGuid>{26D35DF1-628F-49B3-ABF0-12F3881DE0A0}</ProjectGuid>
+    <Keyword>MFCProj</Keyword>
+    <RootNamespace>AGVControlSystem</RootNamespace>
+    <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v142</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+    <UseOfMfc>Static</UseOfMfc>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v142</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+    <UseOfMfc>Static</UseOfMfc>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v142</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+    <UseOfMfc>Static</UseOfMfc>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v142</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+    <UseOfMfc>Static</UseOfMfc>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="Shared">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>_WINDOWS;_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+    </Link>
+    <Midl>
+      <MkTypLibCompatible>false</MkTypLibCompatible>
+      <ValidateAllParameters>true</ValidateAllParameters>
+      <PreprocessorDefinitions>_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </Midl>
+    <ResourceCompile>
+      <Culture>0x0804</Culture>
+      <PreprocessorDefinitions>_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>$(IntDir);%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+    </Link>
+    <Midl>
+      <MkTypLibCompatible>false</MkTypLibCompatible>
+      <ValidateAllParameters>true</ValidateAllParameters>
+      <PreprocessorDefinitions>_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </Midl>
+    <ResourceCompile>
+      <Culture>0x0804</Culture>
+      <PreprocessorDefinitions>_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>$(IntDir);%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+    <Midl>
+      <MkTypLibCompatible>false</MkTypLibCompatible>
+      <ValidateAllParameters>true</ValidateAllParameters>
+      <PreprocessorDefinitions>NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </Midl>
+    <ResourceCompile>
+      <Culture>0x0804</Culture>
+      <PreprocessorDefinitions>NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>$(IntDir);%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>_WINDOWS;NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+    <Midl>
+      <MkTypLibCompatible>false</MkTypLibCompatible>
+      <ValidateAllParameters>true</ValidateAllParameters>
+      <PreprocessorDefinitions>NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </Midl>
+    <ResourceCompile>
+      <Culture>0x0804</Culture>
+      <PreprocessorDefinitions>NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>$(IntDir);%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClInclude Include="..\MapCreater\CGraph.h" />
+    <ClInclude Include="..\MapCreater\CGraphicAGV.h" />
+    <ClInclude Include="..\MapCreater\CGraphicBackground.h" />
+    <ClInclude Include="..\MapCreater\CGraphicCharger.h" />
+    <ClInclude Include="..\MapCreater\CGraphicMark.h" />
+    <ClInclude Include="..\MapCreater\CGraphicRest.h" />
+    <ClInclude Include="..\MapCreater\CGraphicStation.h" />
+    <ClInclude Include="..\MapCreater\CGraphicTrack.h" />
+    <ClInclude Include="ADO\ADOConn.h" />
+    <ClInclude Include="AES.h" />
+    <ClInclude Include="AGVControlSystem.h" />
+    <ClInclude Include="AGVControlSystemDoc.h" />
+    <ClInclude Include="AGVControlSystemView.h" />
+    <ClInclude Include="AGVPath.h" />
+    <ClInclude Include="Buffer.h" />
+    <ClInclude Include="CAdminGetDlg.h" />
+    <ClInclude Include="CAdminSetDlg.h" />
+    <ClInclude Include="CAGV.h" />
+    <ClInclude Include="CAGVActionDlg.h" />
+    <ClInclude Include="CAGVConfigDlg.h" />
+    <ClInclude Include="CAGVConfigPane.h" />
+    <ClInclude Include="CAGVDlg.h" />
+    <ClInclude Include="CAGVMoveDlg.h" />
+    <ClInclude Include="CAGVPane.h" />
+    <ClInclude Include="CAGVSetDlg.h" />
+    <ClInclude Include="CCA.h" />
+    <ClInclude Include="CCACallConfigDlg.h" />
+    <ClInclude Include="CCACallConfigPane.h" />
+    <ClInclude Include="CCAConfigDlg.h" />
+    <ClInclude Include="CCAConfigPane.h" />
+    <ClInclude Include="CCAWatchConfigDlg.h" />
+    <ClInclude Include="CCAWatchConfigPane.h" />
+    <ClInclude Include="CCharger.h" />
+    <ClInclude Include="CChargerConfigDlg.h" />
+    <ClInclude Include="CChargerConfigPane.h" />
+    <ClInclude Include="CChargerControler.h" />
+    <ClInclude Include="CChargerControlerConfigDlg.h" />
+    <ClInclude Include="CChargerControlerPane.h" />
+    <ClInclude Include="CChargerDlg.h" />
+    <ClInclude Include="CChargerPane.h" />
+    <ClInclude Include="CConnectDlg.h" />
+    <ClInclude Include="CConnectPane.h" />
+    <ClInclude Include="CLED.h" />
+    <ClInclude Include="CLEDConfigDlg.h" />
+    <ClInclude Include="CLEDConfigPane.h" />
+    <ClInclude Include="CListCtrlEx.h" />
+    <ClInclude Include="CMagneticTrackNavigation.h" />
+    <ClInclude Include="CMNavCharger.h" />
+    <ClInclude Include="CMNavRestPosition.h" />
+    <ClInclude Include="CMNavStation.h" />
+    <ClInclude Include="CProcessData.h" />
+    <ClInclude Include="CRC.h" />
+    <ClInclude Include="CRestConfigDlg.h" />
+    <ClInclude Include="CRestConfigPane.h" />
+    <ClInclude Include="CRestPosition.h" />
+    <ClInclude Include="CSerialPort.h" />
+    <ClInclude Include="CService.h" />
+    <ClInclude Include="CStation.h" />
+    <ClInclude Include="CStationConfigDlg.h" />
+    <ClInclude Include="CStationConfigPane.h" />
+    <ClInclude Include="CTaskDlg.h" />
+    <ClInclude Include="CTaskEditDlg.h" />
+    <ClInclude Include="CTaskManager.h" />
+    <ClInclude Include="CTaskPane.h" />
+    <ClInclude Include="CTCPClient.h" />
+    <ClInclude Include="CTCPMNavAGV.h" />
+    <ClInclude Include="CTCPServer.h" />
+    <ClInclude Include="CTrafficConfigDlg.h" />
+    <ClInclude Include="CTrafficConfigPane.h" />
+    <ClInclude Include="DebugPrint.h" />
+    <ClInclude Include="Log.h" />
+    <ClInclude Include="MainFrm.h" />
+    <ClInclude Include="Resource.h" />
+    <ClInclude Include="stdafx.h" />
+    <ClInclude Include="targetver.h" />
+    <ClInclude Include="XML\tinystr.h" />
+    <ClInclude Include="XML\tinyxml.h" />
+    <ClInclude Include="XML\Xml.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\MapCreater\CGraph.cpp" />
+    <ClCompile Include="..\MapCreater\CGraphicAGV.cpp" />
+    <ClCompile Include="..\MapCreater\CGraphicBackground.cpp" />
+    <ClCompile Include="..\MapCreater\CGraphicCharger.cpp" />
+    <ClCompile Include="..\MapCreater\CGraphicMark.cpp" />
+    <ClCompile Include="..\MapCreater\CGraphicRest.cpp" />
+    <ClCompile Include="..\MapCreater\CGraphicStation.cpp" />
+    <ClCompile Include="..\MapCreater\CGraphicTrack.cpp" />
+    <ClCompile Include="ADO\ADOConn.cpp" />
+    <ClCompile Include="AES.cpp" />
+    <ClCompile Include="AGVControlSystem.cpp" />
+    <ClCompile Include="AGVControlSystemDoc.cpp" />
+    <ClCompile Include="AGVControlSystemView.cpp" />
+    <ClCompile Include="CAdminGetDlg.cpp" />
+    <ClCompile Include="CAdminSetDlg.cpp" />
+    <ClCompile Include="CAGV.cpp" />
+    <ClCompile Include="CAGVActionDlg.cpp" />
+    <ClCompile Include="CAGVConfigDlg.cpp" />
+    <ClCompile Include="CAGVConfigPane.cpp" />
+    <ClCompile Include="CAGVDlg.cpp" />
+    <ClCompile Include="CAGVMoveDlg.cpp" />
+    <ClCompile Include="CAGVPane.cpp" />
+    <ClCompile Include="CAGVSetDlg.cpp" />
+    <ClCompile Include="CCA.cpp" />
+    <ClCompile Include="CCACallConfigDlg.cpp" />
+    <ClCompile Include="CCACallConfigPane.cpp" />
+    <ClCompile Include="CCAConfigDlg.cpp" />
+    <ClCompile Include="CCAConfigPane.cpp" />
+    <ClCompile Include="CCAWatchConfigDlg.cpp" />
+    <ClCompile Include="CCAWatchConfigPane.cpp" />
+    <ClCompile Include="CCharger.cpp" />
+    <ClCompile Include="CChargerConfigDlg.cpp" />
+    <ClCompile Include="CChargerConfigPane.cpp" />
+    <ClCompile Include="CChargerControler.cpp" />
+    <ClCompile Include="CChargerControlerConfigDlg.cpp" />
+    <ClCompile Include="CChargerControlerPane.cpp" />
+    <ClCompile Include="CChargerDlg.cpp" />
+    <ClCompile Include="CChargerPane.cpp" />
+    <ClCompile Include="CConnectDlg.cpp" />
+    <ClCompile Include="CConnectPane.cpp" />
+    <ClCompile Include="CLED.cpp" />
+    <ClCompile Include="CLEDConfigDlg.cpp" />
+    <ClCompile Include="CLEDConfigPane.cpp" />
+    <ClCompile Include="CListCtrlEx.cpp" />
+    <ClCompile Include="CMagneticTrackNavigation.cpp" />
+    <ClCompile Include="CMNavCharger.cpp" />
+    <ClCompile Include="CMNavRestPosition.cpp" />
+    <ClCompile Include="CMNavStation.cpp" />
+    <ClCompile Include="CProcessData.cpp" />
+    <ClCompile Include="CRestConfigDlg.cpp" />
+    <ClCompile Include="CRestConfigPane.cpp" />
+    <ClCompile Include="CRestPosition.cpp" />
+    <ClCompile Include="CSerialPort.cpp" />
+    <ClCompile Include="CService.cpp" />
+    <ClCompile Include="CStation.cpp" />
+    <ClCompile Include="CStationConfigDlg.cpp" />
+    <ClCompile Include="CStationConfigPane.cpp" />
+    <ClCompile Include="CTaskDlg.cpp" />
+    <ClCompile Include="CTaskEditDlg.cpp" />
+    <ClCompile Include="CTaskManager.cpp" />
+    <ClCompile Include="CTaskPane.cpp" />
+    <ClCompile Include="CTCPClient.cpp" />
+    <ClCompile Include="CTCPMNavAGV.cpp" />
+    <ClCompile Include="CTCPServer.cpp" />
+    <ClCompile Include="CTrafficConfigDlg.cpp" />
+    <ClCompile Include="CTrafficConfigPane.cpp" />
+    <ClCompile Include="MainFrm.cpp" />
+    <ClCompile Include="stdafx.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Create</PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="XML\tinystr.cpp" />
+    <ClCompile Include="XML\tinyxml.cpp" />
+    <ClCompile Include="XML\tinyxmlerror.cpp" />
+    <ClCompile Include="XML\tinyxmlparser.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="AGVControlSystem.rc" />
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="res\AGVControlSystem.ico" />
+    <Image Include="res\AGVControlSystemDoc.ico" />
+    <Image Include="res\Toolbar.bmp" />
+    <Image Include="res\Toolbar256.bmp" />
+    <Image Include="res\userimages.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ClassDiagram.cd" />
+    <None Include="res\AGVControlSystem.rc2" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

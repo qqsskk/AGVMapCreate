@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Config>
+  <Server IP="192.168.1.128" Port="10086"/>
+  <Database Connect="Provider=SQLOLEDB.1;Persist Security Info=False;User ID=sa;Password=123456;Initial Catalog=ACSDB;Data Source=192.168.1.123;" User="sa" Password="123456"/>
+  <CA No="1" IP="192.168.1.254" Port="0"/>                <!--CA无线主机属性 No编号 IP地址 Port端口-->
+  <Arm No="1" IP="192.168.1.128" Port="6000"/>            <!--机械手属性 No编号 IP地址 Port端口-->
+  <Pipeline No="1" IP="192.168.1.128" Port="6600"/>       <!--输送线属性 No编号 IP地址 Port端口-->
+  <Pipeline No="2" IP="192.168.1.128" Port="6660"/>       <!--输送线属性 No编号 IP地址 Port端口-->
+  <Stocker No="1" IP="192.168.1.128" Port="6666"/>        <!--堆垛机属性 No编号 IP地址 Port端口-->>
+</Config>

@@ -1,0 +1,19 @@
+ListCtrl
+{
+	 LVCFMT_LEFT,				/*!< 左对齐 */
+	 LVCFMT_RIGHT,				/*!< 右对齐 */
+	 LVCFMT_CENTER,				/*!< 居中 */
+	 LVS_EX_GRIDLINES,			/*!< 绘制表格,网格线 */
+	 LVS_EX_SUBITEMIMAGES,		/*!< 子项目图标列表 */
+	 LVS_EX_TRACKSELECT,		/*!< 自动换行 */
+	 LVS_EX_HEADERDRAGDROP,		/*!< 报表头可以拖拽 */
+	 LVS_EX_FULLROWSELECT,		/*!< 选择整行,允许选择整行 */
+	 LVS_EX_ONECLICKACTIVATE,	/*!< 单击激活,单击选中项目 */
+	 LVS_EX_TWOCLICKACTIVATE,	/*!< 双击激活 */
+	 LVS_EX_FLATSB,				/*!< 扁平滚动条 */		
+	 LVS_EX_REGIONAL,
+	 LVS_EX_INFOTIP,
+	 LVS_EX_UNDERLINEHOT,
+	 LVS_EX_UNDERLINECOLD,
+	 LVS_EX_MULTIWORKAREAS,		/*!< 多工作区 */
+}

@@ -1,0 +1,571 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="头文件\AGV">
+      <UniqueIdentifier>{ec06b44e-6b3c-4f16-a506-7b15dcf8a4af}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\AGV">
+      <UniqueIdentifier>{a8d5ebfb-702a-4495-9251-4c77dc2a49f1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\Navigation">
+      <UniqueIdentifier>{8017227d-fca9-4e40-b797-7067b7aef0c2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\Navigation">
+      <UniqueIdentifier>{98eff8b7-9848-4a42-a488-79adeec820b9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\Communication">
+      <UniqueIdentifier>{6c5ec8b2-ed07-443e-a6f5-3870f8255159}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\Communication">
+      <UniqueIdentifier>{b352fbc5-43b0-47c0-b89c-b9d124da7c51}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\XML">
+      <UniqueIdentifier>{4b85a0e9-ebb1-408a-a2a7-8776b86d090d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\XML">
+      <UniqueIdentifier>{12fff147-2870-4ebe-ac6b-4f40eecfca80}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\Default">
+      <UniqueIdentifier>{331e307a-5f60-40d3-87fa-a3efe118ce93}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\Default">
+      <UniqueIdentifier>{5f837d57-30a8-4824-81e9-67831239f543}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\Service">
+      <UniqueIdentifier>{f30b6ccd-d638-4b57-93d8-2d4cf0b8c88d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\Service">
+      <UniqueIdentifier>{6d0f7515-c6c9-4e0a-aa91-76bdfcdfcc9b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\Graphic">
+      <UniqueIdentifier>{87374d62-5369-47b2-b568-8b9246ad170e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\Graphic">
+      <UniqueIdentifier>{dd917e3e-9f99-4b0a-83ec-22c4e781652a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\Dialog">
+      <UniqueIdentifier>{5b800600-c75d-4b1d-9e50-65dcdcba909b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\Dialog">
+      <UniqueIdentifier>{e9a66134-bf92-430b-ba14-ce0af5be648d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\DockablePane">
+      <UniqueIdentifier>{109d0eb9-92b8-428c-8788-595a8a45c7cb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\DockablePane">
+      <UniqueIdentifier>{89b7aa5c-f6a3-4e34-9019-73c14a13266c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\DockablePane\Config">
+      <UniqueIdentifier>{452b8046-a724-4b34-abca-1e60448bca79}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\Dialog\Config">
+      <UniqueIdentifier>{4016dc11-3c7a-4a6b-822a-1507c63882af}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\Dialog\Config">
+      <UniqueIdentifier>{4ea4cb09-f715-4c7a-a2fe-75443281093a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\DockablePane\Config">
+      <UniqueIdentifier>{1318fdf4-93c6-4d11-bfda-959c28dcbc77}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\Base">
+      <UniqueIdentifier>{ecc61c60-e18e-4b27-9d66-74e768b500fa}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\Base">
+      <UniqueIdentifier>{e3b5d9de-efa5-4112-a131-f9b04f40b689}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="CAGV.h">
+      <Filter>头文件\AGV</Filter>
+    </ClInclude>
+    <ClInclude Include="CMagneticTrackNavigation.h">
+      <Filter>头文件\Navigation</Filter>
+    </ClInclude>
+    <ClInclude Include="CSerialPort.h">
+      <Filter>头文件\Communication</Filter>
+    </ClInclude>
+    <ClInclude Include="CTCPClient.h">
+      <Filter>头文件\Communication</Filter>
+    </ClInclude>
+    <ClInclude Include="CTCPServer.h">
+      <Filter>头文件\Communication</Filter>
+    </ClInclude>
+    <ClInclude Include="XML\Xml.h">
+      <Filter>头文件\XML</Filter>
+    </ClInclude>
+    <ClInclude Include="XML\tinyxml.h">
+      <Filter>头文件\XML</Filter>
+    </ClInclude>
+    <ClInclude Include="XML\tinystr.h">
+      <Filter>头文件\XML</Filter>
+    </ClInclude>
+    <ClInclude Include="CTCPMNavAGV.h">
+      <Filter>头文件\AGV</Filter>
+    </ClInclude>
+    <ClInclude Include="CRC.h">
+      <Filter>头文件\Base</Filter>
+    </ClInclude>
+    <ClInclude Include="Buffer.h">
+      <Filter>头文件\Base</Filter>
+    </ClInclude>
+    <ClInclude Include="CProcessData.h">
+      <Filter>头文件\Base</Filter>
+    </ClInclude>
+    <ClInclude Include="AGVControlSystem.h">
+      <Filter>头文件\Default</Filter>
+    </ClInclude>
+    <ClInclude Include="AGVControlSystemDoc.h">
+      <Filter>头文件\Default</Filter>
+    </ClInclude>
+    <ClInclude Include="AGVControlSystemView.h">
+      <Filter>头文件\Default</Filter>
+    </ClInclude>
+    <ClInclude Include="MainFrm.h">
+      <Filter>头文件\Default</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource.h">
+      <Filter>头文件\Default</Filter>
+    </ClInclude>
+    <ClInclude Include="stdafx.h">
+      <Filter>头文件\Default</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>头文件\Default</Filter>
+    </ClInclude>
+    <ClInclude Include="ADO\ADOConn.h">
+      <Filter>头文件\Base</Filter>
+    </ClInclude>
+    <ClInclude Include="DebugPrint.h">
+      <Filter>头文件\Base</Filter>
+    </ClInclude>
+    <ClInclude Include="Log.h">
+      <Filter>头文件\Base</Filter>
+    </ClInclude>
+    <ClInclude Include="CCharger.h">
+      <Filter>头文件\Base</Filter>
+    </ClInclude>
+    <ClInclude Include="CStation.h">
+      <Filter>头文件\Base</Filter>
+    </ClInclude>
+    <ClInclude Include="CRestPosition.h">
+      <Filter>头文件\Base</Filter>
+    </ClInclude>
+    <ClInclude Include="CMNavCharger.h">
+      <Filter>头文件\Navigation</Filter>
+    </ClInclude>
+    <ClInclude Include="CMNavRestPosition.h">
+      <Filter>头文件\Navigation</Filter>
+    </ClInclude>
+    <ClInclude Include="CMNavStation.h">
+      <Filter>头文件\Navigation</Filter>
+    </ClInclude>
+    <ClInclude Include="AGVPath.h">
+      <Filter>头文件\AGV</Filter>
+    </ClInclude>
+    <ClInclude Include="CCA.h">
+      <Filter>头文件\Service</Filter>
+    </ClInclude>
+    <ClInclude Include="CService.h">
+      <Filter>头文件\Service</Filter>
+    </ClInclude>
+    <ClInclude Include="..\MapCreater\CGraph.h">
+      <Filter>头文件\Graphic</Filter>
+    </ClInclude>
+    <ClInclude Include="..\MapCreater\CGraphicAGV.h">
+      <Filter>头文件\Graphic</Filter>
+    </ClInclude>
+    <ClInclude Include="..\MapCreater\CGraphicBackground.h">
+      <Filter>头文件\Graphic</Filter>
+    </ClInclude>
+    <ClInclude Include="..\MapCreater\CGraphicCharger.h">
+      <Filter>头文件\Graphic</Filter>
+    </ClInclude>
+    <ClInclude Include="..\MapCreater\CGraphicMark.h">
+      <Filter>头文件\Graphic</Filter>
+    </ClInclude>
+    <ClInclude Include="..\MapCreater\CGraphicRest.h">
+      <Filter>头文件\Graphic</Filter>
+    </ClInclude>
+    <ClInclude Include="..\MapCreater\CGraphicStation.h">
+      <Filter>头文件\Graphic</Filter>
+    </ClInclude>
+    <ClInclude Include="..\MapCreater\CGraphicTrack.h">
+      <Filter>头文件\Graphic</Filter>
+    </ClInclude>
+    <ClInclude Include="CConnectDlg.h">
+      <Filter>头文件\Dialog</Filter>
+    </ClInclude>
+    <ClInclude Include="CListCtrlEx.h">
+      <Filter>头文件\Default</Filter>
+    </ClInclude>
+    <ClInclude Include="CConnectPane.h">
+      <Filter>头文件\DockablePane</Filter>
+    </ClInclude>
+    <ClInclude Include="CAGVDlg.h">
+      <Filter>头文件\Dialog</Filter>
+    </ClInclude>
+    <ClInclude Include="CAGVPane.h">
+      <Filter>头文件\DockablePane</Filter>
+    </ClInclude>
+    <ClInclude Include="CChargerDlg.h">
+      <Filter>头文件\Dialog</Filter>
+    </ClInclude>
+    <ClInclude Include="CChargerPane.h">
+      <Filter>头文件\DockablePane</Filter>
+    </ClInclude>
+    <ClInclude Include="CAGVConfigPane.h">
+      <Filter>头文件\DockablePane\Config</Filter>
+    </ClInclude>
+    <ClInclude Include="CChargerConfigPane.h">
+      <Filter>头文件\DockablePane\Config</Filter>
+    </ClInclude>
+    <ClInclude Include="CRestConfigPane.h">
+      <Filter>头文件\DockablePane\Config</Filter>
+    </ClInclude>
+    <ClInclude Include="CStationConfigPane.h">
+      <Filter>头文件\DockablePane\Config</Filter>
+    </ClInclude>
+    <ClInclude Include="CTrafficConfigPane.h">
+      <Filter>头文件\DockablePane\Config</Filter>
+    </ClInclude>
+    <ClInclude Include="CAGVConfigDlg.h">
+      <Filter>头文件\Dialog\Config</Filter>
+    </ClInclude>
+    <ClInclude Include="CChargerConfigDlg.h">
+      <Filter>头文件\Dialog\Config</Filter>
+    </ClInclude>
+    <ClInclude Include="CRestConfigDlg.h">
+      <Filter>头文件\Dialog\Config</Filter>
+    </ClInclude>
+    <ClInclude Include="CStationConfigDlg.h">
+      <Filter>头文件\Dialog\Config</Filter>
+    </ClInclude>
+    <ClInclude Include="CTrafficConfigDlg.h">
+      <Filter>头文件\Dialog\Config</Filter>
+    </ClInclude>
+    <ClInclude Include="CCAConfigDlg.h">
+      <Filter>头文件\Dialog\Config</Filter>
+    </ClInclude>
+    <ClInclude Include="CCAConfigPane.h">
+      <Filter>头文件\DockablePane\Config</Filter>
+    </ClInclude>
+    <ClInclude Include="CLEDConfigDlg.h">
+      <Filter>头文件\Dialog\Config</Filter>
+    </ClInclude>
+    <ClInclude Include="CLED.h">
+      <Filter>头文件\Base</Filter>
+    </ClInclude>
+    <ClInclude Include="CLEDConfigPane.h">
+      <Filter>头文件\DockablePane\Config</Filter>
+    </ClInclude>
+    <ClInclude Include="CChargerControler.h">
+      <Filter>头文件\Service</Filter>
+    </ClInclude>
+    <ClInclude Include="CChargerControlerConfigDlg.h">
+      <Filter>头文件\Dialog\Config</Filter>
+    </ClInclude>
+    <ClInclude Include="CChargerControlerPane.h">
+      <Filter>头文件\DockablePane\Config</Filter>
+    </ClInclude>
+    <ClInclude Include="CCACallConfigDlg.h">
+      <Filter>头文件\Dialog\Config</Filter>
+    </ClInclude>
+    <ClInclude Include="CCACallConfigPane.h">
+      <Filter>头文件\DockablePane\Config</Filter>
+    </ClInclude>
+    <ClInclude Include="CCAWatchConfigDlg.h">
+      <Filter>头文件\Dialog\Config</Filter>
+    </ClInclude>
+    <ClInclude Include="CCAWatchConfigPane.h">
+      <Filter>头文件\DockablePane\Config</Filter>
+    </ClInclude>
+    <ClInclude Include="CTaskManager.h">
+      <Filter>头文件\Service</Filter>
+    </ClInclude>
+    <ClInclude Include="CTaskDlg.h">
+      <Filter>头文件\Dialog</Filter>
+    </ClInclude>
+    <ClInclude Include="CTaskPane.h">
+      <Filter>头文件\DockablePane</Filter>
+    </ClInclude>
+    <ClInclude Include="CAGVMoveDlg.h">
+      <Filter>头文件\Dialog</Filter>
+    </ClInclude>
+    <ClInclude Include="CAGVActionDlg.h">
+      <Filter>头文件\Dialog</Filter>
+    </ClInclude>
+    <ClInclude Include="CAGVSetDlg.h">
+      <Filter>头文件\Dialog</Filter>
+    </ClInclude>
+    <ClInclude Include="CTaskEditDlg.h">
+      <Filter>头文件\Dialog</Filter>
+    </ClInclude>
+    <ClInclude Include="CAdminSetDlg.h">
+      <Filter>头文件\Dialog</Filter>
+    </ClInclude>
+    <ClInclude Include="CAdminGetDlg.h">
+      <Filter>头文件\Dialog</Filter>
+    </ClInclude>
+    <ClInclude Include="AES.h">
+      <Filter>头文件\Base</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="CAGV.cpp">
+      <Filter>源文件\AGV</Filter>
+    </ClCompile>
+    <ClCompile Include="CMagneticTrackNavigation.cpp">
+      <Filter>源文件\Navigation</Filter>
+    </ClCompile>
+    <ClCompile Include="CSerialPort.cpp">
+      <Filter>源文件\Communication</Filter>
+    </ClCompile>
+    <ClCompile Include="CTCPClient.cpp">
+      <Filter>源文件\Communication</Filter>
+    </ClCompile>
+    <ClCompile Include="CTCPServer.cpp">
+      <Filter>源文件\Communication</Filter>
+    </ClCompile>
+    <ClCompile Include="XML\tinyxmlparser.cpp">
+      <Filter>源文件\XML</Filter>
+    </ClCompile>
+    <ClCompile Include="XML\tinyxmlerror.cpp">
+      <Filter>源文件\XML</Filter>
+    </ClCompile>
+    <ClCompile Include="XML\tinyxml.cpp">
+      <Filter>源文件\XML</Filter>
+    </ClCompile>
+    <ClCompile Include="XML\tinystr.cpp">
+      <Filter>源文件\XML</Filter>
+    </ClCompile>
+    <ClCompile Include="CTCPMNavAGV.cpp">
+      <Filter>源文件\AGV</Filter>
+    </ClCompile>
+    <ClCompile Include="CProcessData.cpp">
+      <Filter>源文件\Base</Filter>
+    </ClCompile>
+    <ClCompile Include="AGVControlSystem.cpp">
+      <Filter>源文件\Default</Filter>
+    </ClCompile>
+    <ClCompile Include="AGVControlSystemDoc.cpp">
+      <Filter>源文件\Default</Filter>
+    </ClCompile>
+    <ClCompile Include="AGVControlSystemView.cpp">
+      <Filter>源文件\Default</Filter>
+    </ClCompile>
+    <ClCompile Include="MainFrm.cpp">
+      <Filter>源文件\Default</Filter>
+    </ClCompile>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>源文件\Default</Filter>
+    </ClCompile>
+    <ClCompile Include="ADO\ADOConn.cpp">
+      <Filter>源文件\Base</Filter>
+    </ClCompile>
+    <ClCompile Include="CCharger.cpp">
+      <Filter>源文件\Base</Filter>
+    </ClCompile>
+    <ClCompile Include="CRestPosition.cpp">
+      <Filter>源文件\Base</Filter>
+    </ClCompile>
+    <ClCompile Include="CStation.cpp">
+      <Filter>源文件\Base</Filter>
+    </ClCompile>
+    <ClCompile Include="CMNavCharger.cpp">
+      <Filter>源文件\Navigation</Filter>
+    </ClCompile>
+    <ClCompile Include="CMNavRestPosition.cpp">
+      <Filter>源文件\Navigation</Filter>
+    </ClCompile>
+    <ClCompile Include="CMNavStation.cpp">
+      <Filter>源文件\Navigation</Filter>
+    </ClCompile>
+    <ClCompile Include="CCA.cpp">
+      <Filter>源文件\Service</Filter>
+    </ClCompile>
+    <ClCompile Include="CService.cpp">
+      <Filter>源文件\Service</Filter>
+    </ClCompile>
+    <ClCompile Include="..\MapCreater\CGraph.cpp">
+      <Filter>源文件\Graphic</Filter>
+    </ClCompile>
+    <ClCompile Include="..\MapCreater\CGraphicAGV.cpp">
+      <Filter>源文件\Graphic</Filter>
+    </ClCompile>
+    <ClCompile Include="..\MapCreater\CGraphicBackground.cpp">
+      <Filter>源文件\Graphic</Filter>
+    </ClCompile>
+    <ClCompile Include="..\MapCreater\CGraphicCharger.cpp">
+      <Filter>源文件\Graphic</Filter>
+    </ClCompile>
+    <ClCompile Include="..\MapCreater\CGraphicMark.cpp">
+      <Filter>源文件\Graphic</Filter>
+    </ClCompile>
+    <ClCompile Include="..\MapCreater\CGraphicRest.cpp">
+      <Filter>源文件\Graphic</Filter>
+    </ClCompile>
+    <ClCompile Include="..\MapCreater\CGraphicStation.cpp">
+      <Filter>源文件\Graphic</Filter>
+    </ClCompile>
+    <ClCompile Include="..\MapCreater\CGraphicTrack.cpp">
+      <Filter>源文件\Graphic</Filter>
+    </ClCompile>
+    <ClCompile Include="CConnectDlg.cpp">
+      <Filter>源文件\Dialog</Filter>
+    </ClCompile>
+    <ClCompile Include="CListCtrlEx.cpp">
+      <Filter>源文件\Default</Filter>
+    </ClCompile>
+    <ClCompile Include="CConnectPane.cpp">
+      <Filter>源文件\DockablePane</Filter>
+    </ClCompile>
+    <ClCompile Include="CAGVDlg.cpp">
+      <Filter>源文件\Dialog</Filter>
+    </ClCompile>
+    <ClCompile Include="CAGVPane.cpp">
+      <Filter>源文件\DockablePane</Filter>
+    </ClCompile>
+    <ClCompile Include="CChargerDlg.cpp">
+      <Filter>源文件\Dialog</Filter>
+    </ClCompile>
+    <ClCompile Include="CChargerPane.cpp">
+      <Filter>源文件\DockablePane</Filter>
+    </ClCompile>
+    <ClCompile Include="CAGVConfigDlg.cpp">
+      <Filter>源文件\Dialog\Config</Filter>
+    </ClCompile>
+    <ClCompile Include="CChargerConfigDlg.cpp">
+      <Filter>源文件\Dialog\Config</Filter>
+    </ClCompile>
+    <ClCompile Include="CStationConfigDlg.cpp">
+      <Filter>源文件\Dialog\Config</Filter>
+    </ClCompile>
+    <ClCompile Include="CTrafficConfigDlg.cpp">
+      <Filter>源文件\Dialog\Config</Filter>
+    </ClCompile>
+    <ClCompile Include="CAGVConfigPane.cpp">
+      <Filter>源文件\DockablePane\Config</Filter>
+    </ClCompile>
+    <ClCompile Include="CRestConfigPane.cpp">
+      <Filter>源文件\DockablePane\Config</Filter>
+    </ClCompile>
+    <ClCompile Include="CChargerConfigPane.cpp">
+      <Filter>源文件\DockablePane\Config</Filter>
+    </ClCompile>
+    <ClCompile Include="CRestConfigDlg.cpp">
+      <Filter>源文件\Dialog\Config</Filter>
+    </ClCompile>
+    <ClCompile Include="CStationConfigPane.cpp">
+      <Filter>源文件\DockablePane\Config</Filter>
+    </ClCompile>
+    <ClCompile Include="CTrafficConfigPane.cpp">
+      <Filter>源文件\DockablePane\Config</Filter>
+    </ClCompile>
+    <ClCompile Include="CCAConfigDlg.cpp">
+      <Filter>源文件\Dialog\Config</Filter>
+    </ClCompile>
+    <ClCompile Include="CCAConfigPane.cpp">
+      <Filter>源文件\DockablePane\Config</Filter>
+    </ClCompile>
+    <ClCompile Include="CLEDConfigDlg.cpp">
+      <Filter>源文件\Dialog\Config</Filter>
+    </ClCompile>
+    <ClCompile Include="CLED.cpp">
+      <Filter>源文件\Base</Filter>
+    </ClCompile>
+    <ClCompile Include="CLEDConfigPane.cpp">
+      <Filter>源文件\DockablePane\Config</Filter>
+    </ClCompile>
+    <ClCompile Include="CChargerControler.cpp">
+      <Filter>源文件\Service</Filter>
+    </ClCompile>
+    <ClCompile Include="CChargerControlerConfigDlg.cpp">
+      <Filter>源文件\Dialog\Config</Filter>
+    </ClCompile>
+    <ClCompile Include="CChargerControlerPane.cpp">
+      <Filter>源文件\DockablePane\Config</Filter>
+    </ClCompile>
+    <ClCompile Include="CCACallConfigDlg.cpp">
+      <Filter>源文件\Dialog\Config</Filter>
+    </ClCompile>
+    <ClCompile Include="CCACallConfigPane.cpp">
+      <Filter>源文件\DockablePane\Config</Filter>
+    </ClCompile>
+    <ClCompile Include="CCAWatchConfigDlg.cpp">
+      <Filter>源文件\Dialog\Config</Filter>
+    </ClCompile>
+    <ClCompile Include="CCAWatchConfigPane.cpp">
+      <Filter>源文件\DockablePane\Config</Filter>
+    </ClCompile>
+    <ClCompile Include="CTaskManager.cpp">
+      <Filter>源文件\Service</Filter>
+    </ClCompile>
+    <ClCompile Include="CTaskDlg.cpp">
+      <Filter>源文件\Dialog</Filter>
+    </ClCompile>
+    <ClCompile Include="CTaskPane.cpp">
+      <Filter>源文件\DockablePane</Filter>
+    </ClCompile>
+    <ClCompile Include="CAGVMoveDlg.cpp">
+      <Filter>源文件\Dialog</Filter>
+    </ClCompile>
+    <ClCompile Include="CAGVActionDlg.cpp">
+      <Filter>源文件\Dialog</Filter>
+    </ClCompile>
+    <ClCompile Include="CAGVSetDlg.cpp">
+      <Filter>源文件\Dialog</Filter>
+    </ClCompile>
+    <ClCompile Include="CTaskEditDlg.cpp">
+      <Filter>源文件\Dialog</Filter>
+    </ClCompile>
+    <ClCompile Include="CAdminSetDlg.cpp">
+      <Filter>源文件\Dialog</Filter>
+    </ClCompile>
+    <ClCompile Include="CAdminGetDlg.cpp">
+      <Filter>源文件\Dialog</Filter>
+    </ClCompile>
+    <ClCompile Include="AES.cpp">
+      <Filter>源文件\Base</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="AGVControlSystem.rc">
+      <Filter>资源文件</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="res\userimages.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\AGVControlSystemDoc.ico">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\AGVControlSystem.ico">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\Toolbar.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\Toolbar256.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="res\AGVControlSystem.rc2">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="ClassDiagram.cd" />
+  </ItemGroup>
+</Project>

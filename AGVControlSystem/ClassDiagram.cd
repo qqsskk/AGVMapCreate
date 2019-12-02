@@ -1,0 +1,399 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="CAGV" Collapsed="true">
+    <Position X="4" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAUAAUAEBQAABNABAgABQGVEEQgQFQBAEAAAIAACA=</HashCode>
+      <FileName>CAGV.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CCharger" Collapsed="true">
+    <Position X="4" Y="8.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>gAgwAAAABAABBAJAKBAoAAEGEAAEAAAAEAAAABAAECA=</HashCode>
+      <FileName>CCharger.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CMagneticTrackLocation" Collapsed="true">
+    <Position X="2.25" Y="6.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAACAAAAAAAAiAAAAAAAAAAAAAQgAAAAAAAAAAA=</HashCode>
+      <FileName>CMagneticTrackNavigation.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CMagneticTrackTrafficControlArea" Collapsed="true">
+    <Position X="0.5" Y="6.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>xEAEAAAAADAIAkAAgASgAAQABAAAAAAAAAAgAAQAAAQ=</HashCode>
+      <FileName>CMagneticTrackNavigation.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CMNavCharger" Collapsed="true">
+    <Position X="4" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AABAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>CMNavCharger.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CMNavStation" Collapsed="true">
+    <Position X="0.5" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAABAAAAAAAAEAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>CMNavStation.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CRFID" Collapsed="true">
+    <Position X="5.75" Y="6.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>gAAQQAAAAAAAAAAAAAAAgAACgAAEEAAAEgEgABBAACg=</HashCode>
+      <FileName>CMagneticTrackNavigation.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CStation" Collapsed="true">
+    <Position X="0.5" Y="8.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAABAAAAAAAAAEAAgAAACAAAAAAAAAAAAQAAARCA=</HashCode>
+      <FileName>CStation.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CTCPServer" Collapsed="true">
+    <Position X="0.5" Y="4" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>CcAIAEAAAhAEAABAAAAADAAACAAgEAAAIAASIABAAIA=</HashCode>
+      <FileName>CTCPServer.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CTCPMNavAGV" Collapsed="true">
+    <Position X="4" Y="2.5" Width="1.5" />
+    <InheritanceLine Type="CProcessData">
+      <InheritanceModifierLabel ManuallyPlaced="true">
+        <Position X="0.964" Y="0.018" />
+      </InheritanceModifierLabel>
+    </InheritanceLine>
+    <InheritanceLine Type="CMagneticTrackNavigation" ManuallyRouted="true">
+      <Path>
+        <Point X="4.75" Y="6.25" />
+        <Point X="4.75" Y="5.741" />
+        <Point X="3.91" Y="5.741" />
+        <Point X="3.91" Y="3.805" />
+        <Point X="4.75" Y="3.805" />
+        <Point X="4.75" Y="3.565" />
+      </Path>
+      <InheritanceModifierLabel ManuallyPlaced="true">
+        <Position X="0.318" Y="1.925" />
+      </InheritanceModifierLabel>
+    </InheritanceLine>
+    <TypeIdentifier>
+      <HashCode>EgQAgACAAAAIBABAgBAEBYBICAIIAAAQEAAABBAIAAQ=</HashCode>
+      <FileName>CTCPMNavAGV.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CTCPClient" Collapsed="true">
+    <Position X="4" Y="4" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>CEQIAAAAAsAAAABAEAEAQIAIAABACABAIAAyIBCAAAA=</HashCode>
+      <FileName>CTCPClient.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CSerialPort" Collapsed="true">
+    <Position X="2.25" Y="4" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ABICgSgADQRAAASQCAAQgAAACMBBEAAACIAAABCIAoE=</HashCode>
+      <FileName>CSerialPort.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CRestPosition" Collapsed="true">
+    <Position X="2.25" Y="8.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAACAAAAAAAAAAAgAAACAAAoAQIAAAAAAAAAACA=</HashCode>
+      <FileName>CRestPosition.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CProcessData" Collapsed="true">
+    <Position X="7.5" Y="4" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAgAAAAAAAAAAAACggBAQABAQoQAgAAAAEAAAAAAAQ=</HashCode>
+      <FileName>CProcessData.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CMNavRestPosition" Collapsed="true">
+    <Position X="2.25" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAADAAAEAAAAQAAAQAAAAAABAAAAAIAAAAAAA=</HashCode>
+      <FileName>CMNavRestPosition.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CMainFrame" Collapsed="true">
+    <Position X="3.25" Y="16.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAACAAAAAAAAAAACAAAiAAAoCEAAgAgAABQAAAAAhA=</HashCode>
+      <FileName>MainFrm.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CAGVControlSystemApp" Collapsed="true">
+    <Position X="0.5" Y="17.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAEAAEAAAAABQAAAAAQCAAARAAACAAA=</HashCode>
+      <FileName>AGVControlSystem.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CAGVControlSystemDoc" Collapsed="true">
+    <Position X="2.25" Y="17.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAACAAQgAAwASggAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>AGVControlSystemDoc.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CAGVControlSystemView" Collapsed="true">
+    <Position X="4" Y="17.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAgAAAABCABAgABAgAAAAAAAAAgBAAAIAAA=</HashCode>
+      <FileName>AGVControlSystemView.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CAboutDlg" Collapsed="true">
+    <Position X="5.75" Y="17.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAABAABAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>AGVControlSystem.cpp</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ADOConn" Collapsed="true">
+    <Position X="0.5" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>gAAAAAAADAAAAAAEAABAAAAACAAQAAAAAKggAAAAQgA=</HashCode>
+      <FileName>ADO\ADOConn.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TiXmlAttribute" Collapsed="true">
+    <Position X="2.25" Y="13.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AgQggAAAgAAQggAEAABAAQQAAAIEAGQAAABgQAIEEAA=</HashCode>
+      <FileName>XML\tinyxml.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TiXmlAttributeSet" Collapsed="true">
+    <Position X="0.5" Y="13.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAIAAAAAAAAAAQAAQAAABAAAAAAJAAAAACAiQAAAAAA=</HashCode>
+      <FileName>XML\tinyxml.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TiXmlBase" Collapsed="true">
+    <Position X="4" Y="12.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>JAgggBQAEAgEAAAQAgBhABASADAQAiAIAAAiAAAkAAA=</HashCode>
+      <FileName>XML\tinyxml.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TiXmlComment" Collapsed="true">
+    <Position X="0.5" Y="15.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AIAgAIAAAAAAAAAAAAAAAQAAAAAAAAEIAAAgAAAEIBA=</HashCode>
+      <FileName>XML\tinyxml.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TiXmlDeclaration" Collapsed="true">
+    <Position X="7.5" Y="15.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IIAgACCAAAQAAAAAAAAAAAAAgAAAAIEAAAIoAAAEKBA=</HashCode>
+      <FileName>XML\tinyxml.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TiXmlDocument" Collapsed="true">
+    <Position X="2.25" Y="15.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AIAgAAAABBAQAQABAgEICAAAAAEQBAEBFAAgAEgUJBA=</HashCode>
+      <FileName>XML\tinyxml.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TiXmlElement" Collapsed="true">
+    <Position X="4" Y="15.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AIAgAAAAACACQAAJAAAAIIEAgQSAAA0BCBAgAAAEIFE=</HashCode>
+      <FileName>XML\tinyxml.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TiXmlHandle" Collapsed="true">
+    <Position X="5.75" Y="13.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQAAEAAAAEAAAIAAAEgAIAABAAAAAAAAAIEoCAEAABA=</HashCode>
+      <FileName>XML\tinyxml.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TiXmlNode" Collapsed="true">
+    <Position X="4" Y="13.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AKAgAAAIAEAEiiBAhEAAYQAEAAqBgCECAYtgAAtAIDA=</HashCode>
+      <FileName>XML\tinyxml.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TiXmlOutStream" Collapsed="true">
+    <Position X="9.25" Y="13.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAACAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>XML\tinystr.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TiXmlParsingData" Collapsed="true">
+    <Position X="7.5" Y="12.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAEAAQABAAEAAAAAAAAAAEEAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>XML\tinyxmlparser.cpp</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TiXmlPrinter" Collapsed="true">
+    <Position X="11" Y="13.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAQAAAEABEhAQgBAAQAAAAMAAAAAAAAABQIBQAwAA=</HashCode>
+      <FileName>XML\tinyxml.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TiXmlString" Collapsed="true">
+    <Position X="9.25" Y="12.5" Width="1.5" />
+    <NestedTypes>
+      <Typedef Name="TiXmlString::size_type" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>XML\tinystr.h</NewMemberFileName>
+        </TypeIdentifier>
+      </Typedef>
+      <Struct Name="TiXmlString::Rep" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>XML\tinystr.h</NewMemberFileName>
+        </TypeIdentifier>
+      </Struct>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>AEAAAAIAAAAEAAAlAsICAQACAAEAAIIAiQExCAABAAA=</HashCode>
+      <FileName>XML\tinystr.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TiXmlText" Collapsed="true">
+    <Position X="5.75" Y="15.25" Width="1.5" />
+    <InheritanceLine Type="TiXmlNode" FixedToPoint="true">
+      <Path>
+        <Point X="4.75" Y="14.427" />
+        <Point X="4.75" Y="14.875" />
+        <Point X="6.5" Y="14.875" />
+        <Point X="6.5" Y="15.25" />
+      </Path>
+    </InheritanceLine>
+    <TypeIdentifier>
+      <HashCode>AKAgAAAABAAAAAAAAEAAAABAAAABgAEAAAAgAAAEIBQ=</HashCode>
+      <FileName>XML\tinyxml.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TiXmlUnknown" Collapsed="true">
+    <Position X="9.25" Y="15.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AIAgAAAAAEAAAAAAAAAAAAACAAAAAAEAAAAgAIAEIBA=</HashCode>
+      <FileName>XML\tinyxml.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TiXmlVisitor" Collapsed="true">
+    <Position X="11" Y="12.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAQAAAAAAAAAQAAAAAAAAAAAAAIAAAAAAAAAAAgAA=</HashCode>
+      <FileName>XML\tinyxml.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CMagneticTrackNavigation" Collapsed="true">
+    <Position X="4" Y="6.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>CAQAEABgAAAAIACAgAAgAAQAAUAAIAACAAAACAAAAAA=</HashCode>
+      <FileName>CMagneticTrackNavigation.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Struct Name="_AGVPathPointStruct" Collapsed="true">
+    <Position X="2.25" Y="10.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EAAEAAAAAIAIAIAAACAQCFUAAAECQAABAACgAgogAEA=</HashCode>
+      <FileName>AGVPath.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="_BufferStruct" Collapsed="true">
+    <Position X="0.5" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAEAAAIAAAAAARAAAAAAAAAAAAggAABAAAA=</HashCode>
+      <FileName>Buffer.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="_JointBufferStruct" Collapsed="true">
+    <Position X="7.5" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAABAAAAEAAAAAYAAAAIgAAgAAgAAgA=</HashCode>
+      <FileName>CProcessData.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="TiXmlCursor" Collapsed="true">
+    <Position X="5.75" Y="12.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAQACAAAAAAAAAAAABABAAAA=</HashCode>
+      <FileName>XML\tinyxml.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Enum Name="_AGVACTION" Collapsed="true">
+    <Position X="4" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAACAAAAAAMAAAAACAAAAAAAAAAAAAAAAQAAAA=</HashCode>
+      <FileName>CAGV.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="_AGVACTIONSTATUS" Collapsed="true">
+    <Position X="5.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAEAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAI=</HashCode>
+      <FileName>CAGV.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="_AGVERROR" Collapsed="true">
+    <Position X="2.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AgAAAAAAAQAAAgAgAAAAAAAAAAAAgAIAAAAAAQAAAAA=</HashCode>
+      <FileName>CAGV.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="_AGVSTATUS" Collapsed="true">
+    <Position X="7.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAABAAgIAAAABABABAAACAAAIAAAAAAAAAAAAAABA=</HashCode>
+      <FileName>CAGV.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="_AGVTYPE" Collapsed="true">
+    <Position X="0.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAkgIkAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>CAGV.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="_CHARGERSTATUS" Collapsed="true">
+    <Position X="4" Y="9.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAMAAAAAAAAAA=</HashCode>
+      <FileName>CCharger.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="_RFIDDIRECTION" Collapsed="true">
+    <Position X="0.5" Y="11.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAQAAAAAAACAAAAAAACAAAAQAAAABAAAAAAA=</HashCode>
+      <FileName>AGVPath.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="_RFIDFUNCTION" Collapsed="true">
+    <Position X="2.25" Y="11.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAIAAAAAAAAAAgAAgAAEAAAAAgAAQAAAIAAAAAAAAA=</HashCode>
+      <FileName>AGVPath.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="TiXmlEncoding" Collapsed="true">
+    <Position X="0.5" Y="12.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAgAAAAAAAAAAAAAAAAAAAABAAAAAAAABAAAA=</HashCode>
+      <FileName>XML\tinyxml.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Font Name="Microsoft YaHei UI" Size="9" />
+</ClassDiagram>

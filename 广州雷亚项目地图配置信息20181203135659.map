@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Map>
+    <Background Scale="2.70" OffsetX="-8" OffsetY="-189" />
+    <Track StartX="-60" StartY="10" EndX="-60" EndY="10" Arc="1" />
+    <Track StartX="-60" StartY="10" EndX="-80" EndY="-10" Arc="1" />
+    <Track StartX="-50" StartY="-10" EndX="-60" EndY="-20" Arc="1" />
+    <Track StartX="-60" StartY="10" EndX="60" EndY="10" Arc="0" />
+    <Track StartX="60" StartY="10" EndX="70" EndY="0" Arc="1" />
+    <Track StartX="60" StartY="-10" EndX="70" EndY="0" Arc="1" />
+    <Track StartX="60" StartY="-10" EndX="-50" EndY="-10" Arc="0" />
+    <Track StartX="-40" StartY="-60" EndX="-60" EndY="-40" Arc="1" />
+    <Track StartX="-60" StartY="-40" EndX="-60" EndY="-20" Arc="0" />
+    <Track StartX="30" StartY="-60" EndX="40" EndY="-70" Arc="1" />
+    <Track StartX="30" StartY="-80" EndX="40" EndY="-70" Arc="1" />
+    <Track StartX="-40" StartY="-60" EndX="30" EndY="-60" Arc="0" />
+    <Track StartX="-70" StartY="-80" EndX="-80" EndY="-70" Arc="1" />
+    <Track StartX="30" StartY="-80" EndX="-70" EndY="-80" Arc="0" />
+    <Track StartX="-80" StartY="-70" EndX="-80" EndY="-10" Arc="0" />
+    <Track StartX="-50" StartY="-140" EndX="-60" EndY="-130" Arc="1" />
+    <Track StartX="-60" StartY="-160" EndX="-80" EndY="-140" Arc="1" />
+    <Track StartX="-80" StartY="-70" EndX="-80" EndY="-140" Arc="0" />
+    <Track StartX="-60" StartY="-40" EndX="-60" EndY="-130" Arc="0" />
+    <Track StartX="60" StartY="-160" EndX="70" EndY="-150" Arc="1" />
+    <Track StartX="60" StartY="-140" EndX="70" EndY="-150" Arc="1" />
+    <Track StartX="60" StartY="-140" EndX="-50" EndY="-140" Arc="0" />
+    <Track StartX="60" StartY="-160" EndX="-60" EndY="-160" Arc="0" />
+    <Track StartX="150" StartY="-160" EndX="160" EndY="-150" Arc="1" />
+    <Track StartX="150" StartY="-140" EndX="160" EndY="-150" Arc="1" />
+    <Track StartX="150" StartY="-140" EndX="50" EndY="-140" Arc="0" />
+    <Track StartX="150" StartY="-160" EndX="60" EndY="-160" Arc="0" />
+    <Mark No="1" X="30" Y="10" />
+    <Mark No="2" X="-10" Y="10" />
+    <Mark No="3" X="10" Y="10" />
+    <Mark No="4" X="-30" Y="10" />
+    <Mark No="5" X="-60" Y="10" />
+    <Mark No="6" X="-80" Y="-10" />
+    <Mark No="7" X="-80" Y="-40" />
+    <Mark No="8" X="-80" Y="-60" />
+    <Mark No="9" X="-70" Y="-80" />
+    <Mark No="10" X="-30" Y="-80" />
+    <Mark No="11" X="-10" Y="-80" />
+    <Mark No="12" X="10" Y="-80" />
+    <Mark No="13" X="30" Y="-80" />
+    <Mark No="14" X="30" Y="-60" />
+    <Mark No="15" X="-10" Y="-60" />
+    <Mark No="16" X="-30" Y="-60" />
+    <Mark No="17" X="-60" Y="-40" />
+    <Mark No="18" X="-60" Y="-20" />
+    <Mark No="19" X="-50" Y="-10" />
+    <Mark No="20" X="60" Y="-10" />
+    <Mark No="21" X="60" Y="10" />
+    <Mark No="22" X="-80" Y="-90" />
+    <Mark No="23" X="-80" Y="-140" />
+    <Mark No="24" X="-60" Y="-160" />
+    <Mark No="25" X="-40" Y="-160" />
+    <Mark No="26" X="-20" Y="-160" />
+    <Mark No="27" X="90" Y="-160" />
+    <Mark No="28" X="110" Y="-160" />
+    <Mark No="29" X="130" Y="-160" />
+    <Mark No="30" X="150" Y="-160" />
+    <Mark No="31" X="150" Y="-140" />
+    <Mark No="32" X="110" Y="-140" />
+    <Mark No="33" X="90" Y="-140" />
+    <Mark No="34" X="60" Y="-140" />
+    <Mark No="35" X="-60" Y="-130" />
+    <Mark No="36" X="-60" Y="-110" />
+    <Mark No="37" X="-60" Y="-90" />
+    <Mark No="38" X="-60" Y="-70" />
+    <Mark No="39" X="0" Y="-160" />
+    <Mark No="40" X="20" Y="-160" />
+    <Mark No="41" X="40" Y="-160" />
+    <Mark No="42" X="60" Y="-160" />
+    <Mark No="43" X="-50" Y="-140" />
+    <Station No="1" Mark="4" Name="卸布点1" X="-30" Y="30" />
+    <Station No="2" Mark="3" Name="卸布点2" X="10" Y="30" />
+    <Rest No="1" Mark="11" X="-10" Y="-100" />
+    <Rest No="2" Mark="28" X="110" Y="-180" />
+    <AGV No="1" Type="T" Move="S" IP="192.168.1.200" Port="0" />
+    <AGV No="2" Type="T" Move="S" IP="192.168.1.201" Port="0" />
+    <AGV No="3" Type="T" Move="S" IP="192.168.1.203" Port="0" />
+    <AGV No="4" Type="T" Move="S" IP="192.168.1.204" Port="0" />
+    <AGV No="5" Type="T" Move="S" IP="192.168.1.205" Port="0" />
+    <AGV No="6" Type="T" Move="S" IP="192.168.1.206" Port="0" />
+    <Traffic No="1">
+        <Ctrl No="8" />
+        <Ctrl No="37" />
+        <Ctrl No="16" />
+        <Stop No="9" />
+        <Stop No="38" />
+    </Traffic>
+    <Traffic No="2">
+        <Ctrl No="26" />
+        <Stop No="39" />
+        <Stop No="40" />
+        <Stop No="41" />
+        <Stop No="42" />
+        <Stop No="27" />
+        <Stop No="28" />
+    </Traffic>
+    <Traffic No="3">
+        <Ctrl No="41" />
+        <Ctrl No="33" />
+        <Stop No="42" />
+    </Traffic>
+</Map>

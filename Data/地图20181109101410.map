@@ -1,0 +1,4 @@
+<Map>
+    <Background Scale="10.00" OffsetX="0" OffsetY="0" />
+    <Call No="10" Station="10" RestQueue="1" AGVType="P" Msg="²âÊÔ1" />
+</Map>
